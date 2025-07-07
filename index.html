@@ -16,25 +16,25 @@
             font-family: Arial, sans-serif;
             background-color: #000000;
             color: #ffffff;
-            height: 100vh;
-            overflow: hidden;
+            min-height: 100vh;
+            overflow-x: hidden;
             display: flex;
             flex-direction: column;
             justify-content: center;
             align-items: center;
-            padding: 40px;
+            padding: 20px;
         }
 
         .main-logo {
-            max-width: 300px;
+            max-width: 250px;
             height: auto;
-            margin-bottom: 20px;
+            margin-bottom: 15px;
             display: block;
         }
 
         .subtitle {
-            font-size: 2.2rem;
-            margin-bottom: 80px;
+            font-size: 1.8rem;
+            margin-bottom: 50px;
             text-align: center;
             color: #cccccc;
             font-style: italic;
@@ -43,9 +43,9 @@
         }
 
         .products-title {
-            font-size: 2.5rem;
+            font-size: 2rem;
             font-weight: bold;
-            margin-bottom: 40px;
+            margin-bottom: 30px;
             text-align: center;
             align-self: center;
         }
@@ -58,7 +58,7 @@
         }
 
         .goosy-image {
-            max-width: 200px;
+            max-width: 160px;
             height: auto;
             cursor: pointer;
             transition: transform 0.3s ease;
@@ -70,13 +70,13 @@
 
         .product-caption {
             text-align: center;
-            margin-top: 20px;
+            margin-top: 15px;
         }
 
         .product-description {
-            font-size: 1.3rem;
+            font-size: 1.1rem;
             color: #ffffff;
-            margin-bottom: 15px;
+            margin-bottom: 12px;
         }
 
         .visit-btn {
@@ -99,26 +99,26 @@
 
         @media (max-width: 768px) {
             .main-logo {
-                max-width: 200px;
+                max-width: 180px;
             }
             
             .subtitle {
-                font-size: 1.2rem;
-                margin-bottom: 60px;
+                font-size: 1.4rem;
+                margin-bottom: 40px;
             }
             
             .products-title {
-                font-size: 2rem;
+                font-size: 1.6rem;
                 text-align: center;
                 align-self: center;
             }
             
             .goosy-image {
-                max-width: 150px;
+                max-width: 120px;
             }
             
             .product-description {
-                font-size: 1.1rem;
+                font-size: 1rem;
             }
             
             .visit-btn {
@@ -128,12 +128,30 @@
         }
 
         @media (max-width: 480px) {
+            body {
+                padding: 15px;
+            }
+            
+            .main-logo {
+                max-width: 150px;
+            }
+            
+            .subtitle {
+                font-size: 1.2rem;
+                margin-bottom: 30px;
+            }
+            
+            .products-title {
+                font-size: 1.4rem;
+                margin-bottom: 20px;
+            }
+            
             .goosy-image {
-                max-width: 120px;
+                max-width: 100px;
             }
             
             .product-description {
-                font-size: 1rem;
+                font-size: 0.9rem;
             }
             
             .visit-btn {
@@ -155,10 +173,10 @@
         </a>
         <div class="product-caption">
             <p class="product-description">Goosy - A VS Code Extension</p>
-            <a href="https://goosy.io" class="visit-btn">View Product</a>
+            <a href="https://www.goosy.null0x.studio" class="visit-btn">View Product</a>
         </div>
     </div>
     
-    <p style="margin-top: 40px; font-size: 1.2rem; color: #888888; font-style: italic; text-align: center;">More awesome products launching soon! 🚀</p>
+    <p style="margin-top: 30px; font-size: 1rem; color: #888888; font-style: italic; text-align: center;">More awesome products launching soon! 🚀</p>
 </body>
 </html>
